@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background: #100d35;
+}
+
+/*полигон*/
+
+.poligon{
+    height: 100vh;
+}
+
+.poligon{
+    height: 700px;
+    width: 1530px;
+    margin: 0 auto;
+    background: url(./img/futbolnoe-pole1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.poligon__ball {
+    width:3%;
+    position: absolute;
+    left: 48.5%;
+    top: 61%;
+}
+
+.poligon__general{
+    display: flex;
+    position: relative;
+    top: 33%;
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.poligon__first{
+    width: 70px;
+    height: 90px;
+    transform: skewY(138deg);
+}
+
+.poligon__second{
+    width: 70px;
+    height: 90px;
+    transform: skewY(226deg);
+}
+
+/*табло*/
+.scoreboard {
+    width:20%;
+    margin: 0 auto;
+    padding-top:5%;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+.scoreboard__points {
+    padding: 8px;
+    border-radius: 5px;
+    background: #005679;
+    display: inline-block;
+    outline-color: #100d35bf;
+    outline-width: 12px;
+    outline-style: solid;
+}
+
+.countdown-text {
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+/**/
+.poligon__hidden-left{
+    display: none;
+    transform: skewY(355deg);
+    top: -8vh;
+    left: 1vh;
+    opacity: 0.3;
+    width: 30%;
+    position: relative;
+}
+.poligon__hidden-right{
+    display: none;
+    transform: skewY(4deg);
+    opacity: 0.3;
+    width: 30%;
+    left: 147vh;
+    top: -9vh;
+    position: relative;
+}
