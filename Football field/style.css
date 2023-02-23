@@ -28,7 +28,7 @@ body{
 .poligon__general{
     display: flex;
     position: relative;
-    top: 33%;
+    top: 13%;
     width: 65%;
     margin: 0 auto;
     justify-content: space-between;
@@ -75,7 +75,7 @@ body{
 
 /**/
 .poligon__hidden-left{
-    display: none;
+    visibility: hidden;
     transform: skewY(355deg);
     top: -8vh;
     left: 1vh;
@@ -84,11 +84,11 @@ body{
     position: relative;
 }
 .poligon__hidden-right{
-    display: none;
+    visibility: hidden;
     transform: skewY(4deg);
     opacity: 0.3;
     width: 30%;
-    left: 147vh;
+    left: 84vh;
     top: -9vh;
     position: relative;
 }
