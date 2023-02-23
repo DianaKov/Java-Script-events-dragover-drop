@@ -19,7 +19,7 @@ body{
 }
 
 .poligon__ball {
-    width:3%;
+    width:35px;
     position: absolute;
     left: 48.5%;
     top: 61%;
