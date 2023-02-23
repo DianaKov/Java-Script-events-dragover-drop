@@ -13,19 +13,13 @@ poligon.addEventListener('dragover', function(e){
 });
 
 poligon.addEventListener('drop', function(e){
-
     this.appendChild(img);
     img.style.left = e.clientX - img.offsetWidth / 2 + 'px';
 	img.style.top = e.clientY - img.offsetHeight / 2 + 'px';
 
 
-   /* this.appendChild(img);
-    img.style.left = e.clientX  + 'px';
-	img.style.top = e.clientY + 'px';*/
-
     if (e.target.classList.contains('poligon__first')) {
-        console.log(1);
-                addPoints(hiddenImgRight, guest, 'scoreboard__guest-points');
+        addPoints(hiddenImgRight, guest, 'scoreboard__guest-points');
         countGuest++; 
         guest.textContent = countGuest;
     }
