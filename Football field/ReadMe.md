@@ -1,1 +1,1 @@
-[football-field](https://football-field.netlify.app/)
+Ссылка на игру [football-field](https://football-field.netlify.app/)
